@@ -6,7 +6,7 @@ simgrid.overrideAttrs(oldAttrs: rec {
   src = fetchurl {
     url = "https://api.github.com/repos/migvasc/custom_simgrid_3_36/tarball/${rev}";
     
-    sha256 = "sha256-DgU17ocCqWnvVDUNrngJhT/lq/z76GxHOA27c4f9z6o=";
+    sha256 = "sha256-MkZknQHo58N9SRYRWFiZX/I3nL2YEadOB+lqTH1ZQUg=";
   };
 })
 
