@@ -1,4 +1,4 @@
-{ stdenv, fetchgit, cmake, simgrid, boost }:
+{ stdenv, fetchgit, cmake, simgrid, boost, nlohmann_json }:
 
  stdenv.mkDerivation rec {
   pname = "opportunistic_edge_simulator";
@@ -16,6 +16,4 @@
     cmake
   ];
   
-};
-
-
+}
