@@ -5,8 +5,8 @@
   version = "0.0.in-tuto";
   src = fetchgit {
     url = "https://github.com/migvasc/smart_city_cloud_edge_simulator";
-    rev = "e1c4a797faaa44d4e7ac55274e92fff03198f856";
-    sha256 = "sha256-O3qGfNQzCIrY6L3J9maOnf2hCgfPLgJGHMdZiK7tf6Q=";
+    rev = "e82f4878e9ff56350b76a2342fc07a7893e65eb4";
+    sha256 = "sha256-sx7oOhyO92V7kuRe0LvnfPl6kFxXzlUkfuqX5VEaxjA=";
   };
 
   buildInputs = [
