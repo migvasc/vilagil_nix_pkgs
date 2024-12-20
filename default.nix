@@ -6,7 +6,8 @@ with pkgs;
 
 let
   packages = rec {    
-    opportunistic_edge_simulator = callPackage ./pkgs/opportunistic_edge_simulator { simgrid = simgrid_3_36_custom; };
+    opportunistic_edge_simulator_mailboxes = callPackage ./pkgs/opportunistic_edge_simulator_mailboxes { simgrid = simgrid_3_36_custom; };
+    opportunistic_edge_simulator_timeslot = callPackage ./pkgs/opportunistic_edge_simulator_timeslot { simgrid = simgrid_3_36_custom; };
     simgrid_3_36_custom = callPackage ./pkgs/simgrid_3_36_custom/custom.nix {};
 inherit pkgs; 
 
