@@ -2,11 +2,11 @@
 
  stdenv.mkDerivation rec {
   pname = "opportunistic_edge_simulator";
-  version = "0.0.co2";
+  version = "co2_github";
   src = fetchgit {
     url = "https://github.com/migvasc/smart_city_cloud_edge_simulator";
-    rev = "9b8af59eeacbf202a7e9677477d4cd88cf96d0a1";
-    sha256 = "sha256-H1ekd2dG7ZuzJd5H4OKXEqp2x8KWAyCnrvieX5gWKN8=";
+    rev = "91ca8e7cfb589792e7e4da5ad869ef7b824029db";
+    sha256 = "sha256-+0xVJfiy0JIJJKoecsBnLBPZhoGDU3y9k2x/h2VL9l0=";
   };
 
   buildInputs = [
@@ -14,6 +14,5 @@
     simgrid
     boost
     cmake
-  ];
-  
+  ]; 
 }
